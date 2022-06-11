@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &2986762389268133142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2478805561280942897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3129d28d1f0c74e48b4437428a210c25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cardValue: 0
+  isASpecialCard: 1
+  _backSprite: {fileID: 3306526237650727960}
+  _frontSprite: {fileID: 2478805560323339436}
+  _infoSprite: {fileID: 2478805560634156696}
+--- !u!1001 &3359477492949490801
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 934847105678528320, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_Name
+      value: Card Mirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 934847105678528326, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2227979827990448816, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+      propertyPath: cardValue
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2227979827990448816, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+--- !u!1 &2478805561280942897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 934847105678528320, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+  m_PrefabInstance: {fileID: 3359477492949490801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2478805560323339436 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 934847104725641437, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+  m_PrefabInstance: {fileID: 3359477492949490801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &3306526237650727960 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 251188805133052009, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+  m_PrefabInstance: {fileID: 3359477492949490801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &2478805560634156696 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 934847104968309481, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+  m_PrefabInstance: {fileID: 3359477492949490801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2478805560962244345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 934847105426932360, guid: de993c256deb39844a4ad397c60d6c4f, type: 3}
+  m_PrefabInstance: {fileID: 3359477492949490801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6882553952620910181
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2478805560962244345}
+    m_Modifications:
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115936, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6958239651412115939, guid: 7d2983393bfce354b865a018d331852c, type: 3}
+      propertyPath: m_Name
+      value: Card Symbol Base Mirror
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7d2983393bfce354b865a018d331852c, type: 3}

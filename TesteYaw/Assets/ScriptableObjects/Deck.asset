@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26b76cfdd2957441ae8247183c15a8c, type: 3}
+  m_Name: Deck
+  m_EditorClassIdentifier: 
+  deckCards:
+  - card: {fileID: 7927118139807939371, guid: 2a6eb925ba8eae5418c2afcc34cf3acb, type: 3}
+    amount: 3
+  - card: {fileID: 1536155262711797665, guid: 0b55bb3bcc7908f489c3708acb0cc53f, type: 3}
+    amount: 3
+  - card: {fileID: 1854433029571082572, guid: 3eee940f2263cd54bbd92bc38cb8cdb0, type: 3}
+    amount: 2
+  - card: {fileID: 5939467825714434920, guid: 8bc4a26baa474a44a83fc74dd07d11a2, type: 3}
+    amount: 2
+  - card: {fileID: 2681274915845185250, guid: 5c2a7bbec6c77bd44b99ec081f19147d, type: 3}
+    amount: 1
+  - card: {fileID: 6511672169445352470, guid: 4edb25f419eb4c84cb5d5269e8de8894, type: 3}
+    amount: 1
+  - card: {fileID: -6778623939612851417, guid: ca000b93c86f20c4c9810bab96d11325, type: 3}
+    amount: 4
+  - card: {fileID: 2986762389268133142, guid: e44abca090dd9414896a941845174055, type: 3}
+    amount: 2
+  - card: {fileID: 7870455189905432075, guid: 3c9a47529d6851f4da1114186a50329f, type: 3}
+    amount: 2

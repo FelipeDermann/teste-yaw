@@ -1,0 +1,52 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "40365b5b-b03d-4613-8d35-86afb10829ca",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "8929c410-2f44-4bf3-b602-0e4f3b270f64",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Position",
+                    "type": "PassThrough",
+                    "id": "f330d6ac-97de-402f-8c74-282eafbfe20a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c22e24e0-23ca-458e-b308-9404e6d34cb3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "50433cf7-4fa1-499e-80c5-2fbd0cc4461c",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
